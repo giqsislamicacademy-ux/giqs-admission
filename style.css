@@ -1,0 +1,333 @@
+/* ==========================
+   GIQS OFFICIAL ADMISSION PORTAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:#0B5D3B;
+
+    color:#333;
+
+}
+
+/* HEADER */
+
+header{
+
+    background:white;
+
+    text-align:center;
+
+    padding:35px 20px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.2);
+
+}
+
+.logo{
+
+    width:120px;
+
+    margin-bottom:10px;
+
+}
+
+header h1{
+
+    color:#0B5D3B;
+
+    font-size:38px;
+
+}
+
+.short-name{
+
+    color:#C9A227;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    margin:8px 0;
+
+}
+
+header h2{
+
+    color:#444;
+
+    margin-bottom:15px;
+
+}
+
+.welcome{
+
+    max-width:850px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+/* MAIN */
+
+main{
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:50px 20px;
+
+}
+
+/* FORM CARD */
+
+.form-card{
+
+    width:950px;
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+}
+
+/* TOP BAR */
+
+.form-header{
+
+    background:#C9A227;
+
+    color:white;
+
+    text-align:center;
+
+    padding:18px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+
+}
+
+/* FORM */
+
+form{
+
+    padding:40px;
+
+}
+
+/* SECTION TITLES */
+
+form h3{
+
+    margin-top:30px;
+
+    margin-bottom:20px;
+
+    color:#0B5D3B;
+
+    border-bottom:2px solid #C9A227;
+
+    padding-bottom:8px;
+
+}
+
+/* ROW */
+
+.row{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-bottom:20px;
+
+}
+
+/* FIELD */
+
+.field{
+
+    flex:1;
+
+}
+
+.full{
+
+    flex:100%;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+/* INPUTS */
+
+input,
+
+select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+input:focus,
+
+select:focus{
+
+    border:1px solid #0B5D3B;
+
+    outline:none;
+
+    box-shadow:0 0 8px rgba(11,93,59,.25);
+
+}
+
+/* CHECKBOX */
+
+.agree{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:12px;
+
+    margin-top:35px;
+
+}
+
+.agree input{
+
+    width:20px;
+
+    margin-top:3px;
+
+}
+
+/* BUTTON */
+
+button{
+
+    width:100%;
+
+    margin-top:35px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#0B5D3B;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#C9A227;
+
+    color:#0B5D3B;
+
+}
+
+/* FOOTER */
+
+footer{
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    line-height:2;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.row{
+
+flex-direction:column;
+
+}
+
+.form-card{
+
+width:100%;
+
+}
+
+header h1{
+
+font-size:30px;
+
+}
+
+header h2{
+
+font-size:22px;
+
+}
+
+.logo{
+
+width:90px;
+
+}
+
+form{
+
+padding:25px;
+
+}
+
+}
